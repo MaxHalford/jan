@@ -1,7 +1,7 @@
 # jan: Just Another Neural network
 
-<div align="center" width="30%">
-    <img src="https://medias.spotern.com/spots/w640/216/216286-1563439278.jpg">
+<div align="center">
+    <img width="30%" src="https://medias.spotern.com/spots/w640/216/216286-1563439278.jpg">
 </div>
 </br>
 
@@ -71,9 +71,9 @@ You can run the examples to make sure they work by running `pytest`.
 ...    epochs=30, batch_size=8,
 ...    eval_metric=metrics.mean_absolute_error, print_every=10
 ... )
-[10] train loss: 2.980601
-[20] train loss: 2.318972
-[30] train loss: 1.997199
+[10] train mean_absolute_error: 2.980601
+[20] train mean_absolute_error: 2.318972
+[30] train mean_absolute_error: 1.997199
 
 >>> y_pred = nn.predict(X_test)
 >>> print(metrics.mean_absolute_error(y_test, y_pred))
@@ -116,9 +116,9 @@ You can run the examples to make sure they work by running `pytest`.
 ...    epochs=30, batch_size=8,
 ...    eval_metric=metrics.log_loss, print_every=10
 ... )
-[10] train loss: 0.229828
-[20] train loss: 0.137580
-[30] train loss: 0.114242
+[10] train log_loss: 0.229828
+[20] train log_loss: 0.137580
+[30] train log_loss: 0.114242
 
 >>> y_pred = nn.predict(X_test)
 >>> print(metrics.classification_report(y_test.argmax(1), y_pred.argmax(1)))

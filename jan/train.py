@@ -34,4 +34,4 @@ def train(nn, X, y, epochs: int, batch_size: int, eval_metric: callable, print_e
         # Display the performance every print_every eooch
         if (i + 1) % print_every == 0:
             y_pred = nn.predict(X)
-            print(f'[{i+1}] train loss: {eval_metric(y, y_pred)}')
+            print(f'[{i+1}] train {eval_metric.__name__}: {eval_metric(y, y_pred)}')
