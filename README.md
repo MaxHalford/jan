@@ -1,8 +1,9 @@
 # jan: Just Another Neural network
 
-<div align="center">
-    <img src="https://tvguide1.cbsistatic.com/i/2006/10/12/64bce89f-e288-40ff-a717-aaddc756b219/1b7ddbc27ecd03f8ce2443470fc086f3/1CD69017-F556-43A1-866E-0D14FB7A4CC0.jpg">
+<div align="center" width="30%">
+    <img src="https://medias.spotern.com/spots/w640/216/216286-1563439278.jpg">
 </div>
+</br>
 
 This is a very plain neural network library written in Python. It has nothing fancy going on: no automatic differentiation, no GPU support, etc. It has no ambition whatsoever, apart from being used for my own purposes as an educational tool. Therefore, more emphasis is put on readability than on performance.
 
